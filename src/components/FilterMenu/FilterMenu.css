@@ -18,7 +18,7 @@ button:focus {
 }
 
 .filter-menu-bar__btn {
-  font-size: 1.45rem;
+  font-size: 1.05rem;
   color: #999999;
   display: block;
   height: 60px;
@@ -32,20 +32,20 @@ button:focus {
 }
 
 .filter-menu-bar__caret {
-  margin-left: 6px;
+  margin-left: 5px;
   border: solid #999999;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   display: inline-block;
-  padding: 7px;
+  padding: 4px;
   transform: rotate(45deg);
-  vertical-align: top;
-  margin-top: 5px;
+  vertical-align: middle;
+  margin-bottom: 6px;
 }
 
 .filter-menu-bar__caret-up {
   transform: rotate(225deg);
   vertical-align: bottom;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   border-color: black;
 }
 
@@ -63,21 +63,23 @@ button:focus {
 
 .filter-menu-bar__header-mobile {
   color: #999999 !important;
-  font-size: 1.75rem !important;
+  font-size: 1.3rem !important;
 }
 
 .filter-menu-bar__item {
   display: block;
   min-height: 45px;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #262626;
   border-top: 0px !important;
   border-right: 0px !important;
   border-left: 0px !important;
   color: white;
-  font-size: 1.3rem;
+  font-size: 0.95rem;
   width: 100%;
   text-align: left;
   position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .filter-menu-bar__item:hover {
@@ -97,7 +99,7 @@ button:focus {
 }
 
 .filter-menu-bar__check-mark {
-  width: 30px;
+  width: 18px;
 }
 
 .filter-menu-bar__item-img {
