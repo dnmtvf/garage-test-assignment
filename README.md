@@ -1,1 +1,2 @@
-This is source code of test work for Garage MCA
+Test assignment for Garage MCA for front-end developer position.
+Simple SPA/event filter on React/Redux
